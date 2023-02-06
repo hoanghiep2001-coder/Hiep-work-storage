@@ -1,38 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "DM Serif Display";
+  font-weight: 700;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-image: url(./image/bg-main.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100vh;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.inner {
+  min-width: 500px;
+  max-height: 80%;
+  border-radius: 16px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.6);
+  overflow: hidden auto;
+  padding: 20px 32px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inner::-webkit-scrollbar {
+  width: 6px;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 16px;
+  display: none;
+}
+
+.title {
+  padding: 16px 0;
+  color: rgb(71, 240, 71);
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.6);
+  font-size: 28px;
+}
+
+.list {
+  text-align: start;
+}
+
+.item {
+  color: rgb(240, 240, 50);
+  font-size: 20px;
+  display: flex;
+  margin-top: 12px;
+}
+
+.content {
+  min-width: 100px;
+}
+
+.sub-list {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.sub-item {
+  padding: 0 0 12px 0;
+}
+
+.link {
+  color: rgb(240, 169, 169);
 }
