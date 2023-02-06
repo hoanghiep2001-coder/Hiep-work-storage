@@ -137,7 +137,23 @@ function App() {
             </ul>
           </li>
           <li className="item">
-            <p className="content">Trên Trường :</p>
+            <p className="content">Công ty :</p>
+
+            <ul className="sub-list">
+              <li className="sub-item">
+                <a
+                  href="https://docs.google.com/spreadsheets/d/1wwnD6zKSL2Rm-2UssNKXfSiB7vht5RcnChodl3EB2tI/edit#gid=737776208"
+                  className="link"
+                  blank
+                  target="_"
+                >
+                  - Lịch làm việc
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li className="item">
+            <p className="content">Trường :</p>
 
             <ul className="sub-list">
               <li className="sub-item">
